@@ -3,7 +3,7 @@ const app = express();
 const path = require('path')
 
 
-const routerIndex = require('./routes/index')
+const routerIndex = require('./src/routes/index')
 
 app.use('/', routerIndex)
 
